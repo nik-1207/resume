@@ -175,3 +175,24 @@ a:link, a:visited, a:hover, a:active {
   font-size: 13px;
 }
 
+.experience-card {
+  padding: 8px;
+  font-family: sans-serif;
+  box-shadow: 5px 6px 10px 0 #888888;
+
+}
+
+.experience-card-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 8px;
+
+}
+
+.role-items{
+  margin-top:4px;
+  list-style-type:circle;
+  font-family: sans-serif;
+  font-size: 13px;
+}
