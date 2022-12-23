@@ -1,0 +1,177 @@
+.background {
+  background-color: #D3D3D3;
+}
+
+.main {
+  margin: 4px 20%;
+  background: white;
+  padding: 24px 20px
+}
+
+.profile-photo {
+  height: 100px;
+  width: 90px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  padding: 8px;
+}
+
+.name {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  color: #0A96C3
+}
+
+.degree {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.ph-key, .email-key {
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 10px;
+  color: #0A96C3
+}
+
+.ph-value, .email-value, .address {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.title {
+  background-color: #0A96C3;
+  width: 100%;
+  color: white;
+  font-family: sans-serif;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.title-heading {
+  margin-left: 8px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.skill-item-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background-color: #cccccc;
+  margin: 4px 4px 2px 4px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  font-size: 15px;
+  width: max-content;
+}
+
+.education-card {
+  font-family: sans-serif;
+  padding: 4px 8px;
+  box-shadow: 5px 6px 10px 0 #888888;
+  margin-bottom: 8px;
+  background-color: white;
+
+}
+
+.edu-card-row-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.edu-card-row-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.college {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.year {
+  font-size: 15px;
+}
+
+.course, .score {
+  font-size: 13px;
+}
+
+.project-card {
+  font-family: sans-serif;
+  padding: 8px;
+  box-shadow: 5px 6px 10px 0 #888888;
+  margin-bottom: 8px;
+
+}
+
+.project-title {
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.project-time-period, .project-item-key, .project-item-value .project-description {
+  font-size: 15px;
+}
+
+.project-card-row-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-style {
+  list-style-type: circle;
+  padding-inline-start: 28px;
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #0A96C3;
+  text-decoration: none;
+}
+
+.personal-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.personal-details-row-1, .personal-details-row-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-details-key {
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.personal-details-value {
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
